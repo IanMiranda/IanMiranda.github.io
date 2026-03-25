@@ -27,9 +27,11 @@ twitter_username: jekyllrb
 github_username:  IanMiranda
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
+
+paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default.
