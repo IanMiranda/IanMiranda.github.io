@@ -1,0 +1,20 @@
+---
+# Jekyll needs front matter for SCSS files
+---
+
+@use "colors";
+@use "hydeout/variables" with (
+  $body-bg:           white,
+  $body-color:        #292929,
+  $heading-color:     black,
+  $link-color:        colors.$dark-slate,
+  $sidebar-bg-color:  colors.$crimson,
+  $sidebar-sticky:    false,
+  );
+@use "hydeout";
+
+#sidebar {
+    .site-title {
+        font-family: 'Oswald';
+    }
+}
